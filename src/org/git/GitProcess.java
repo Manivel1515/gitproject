@@ -14,9 +14,10 @@ public class GitProcess extends Add {
 		int c = a + 15;
 		System.out.println(a + "+15 = " + c);
 		Calculator ca = new Calculator();
-		int sub = ca.sub(a, 13);		
+		int sub = ca.sub(a, 13);
 		System.out.println(a + "-" + 13 + "=" + sub);
 		sc.close();
 		System.out.println("Changes by Emp1");
+		System.out.println("Changes by Emp2");
 	}
 }
