@@ -15,6 +15,7 @@ public class Add {
 		b = sc.nextInt();
 		int c = a + b;
 		System.out.println(a + "+" + b + "=" + c);
+		System.out.println("Done");
 	}
 
 	public int sub(int a, int b) {
