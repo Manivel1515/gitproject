@@ -9,5 +9,8 @@ public static void main(String[] args) {
 	System.out.println(a);
 	int c=a+15;
 	System.out.println(c);
+	Add x= new Add(2,3);
+	
+	
 }
 }
