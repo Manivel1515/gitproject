@@ -2,22 +2,20 @@ package org.git;
 
 import java.util.Scanner;
 
-public class GitProcess {
+public class GitProcess extends Add {
 	public static void main(String[] args) {
 		System.out.println("Employee 1>>>>>>");
 		System.out.println("Clone Done>>>>>");
 		System.out.println("Employee 2>>>>>>");
-		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter a 1st number");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number");
 		int a = sc.nextInt();
-		System.out.println("Enetr a 2nd number");
-		int b=sc.nextInt();
 		System.out.println(a);
 		int c = a + 15;
-		System.out.println(a+"+15 = "+c);
-		Add x = new Add(a, b);
-		int s = x.sub(a, b);
-		System.out.println(a+"-"+b+"="+s);
+		System.out.println(a + "+15 = " + c);
+		Calculator ca = new Calculator();
+		int sub = ca.sub(a, 13);		
+		System.out.println(a + "-" + 13 + "=" + sub);
 		sc.close();
 	}
 }
