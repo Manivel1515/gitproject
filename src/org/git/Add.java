@@ -15,7 +15,7 @@ public class Add {
 		b = sc.nextInt();
 		int c = a + b;
 		System.out.println(a + "+" + b + "=" + c);
-		System.out.println("Done");
+		System.out.println("Done One");
 	}
 
 	public int sub(int a, int b) {
@@ -37,5 +37,6 @@ public class Add {
 		System.out.println("Enter Your Age>>>>");
 		age = sc.nextInt();
 		System.out.println("Hai " + name + " Your age is " + age);
+		System.out.println("Done Two");
 	}
 }
